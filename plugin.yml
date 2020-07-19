@@ -1,5 +1,5 @@
 name: SurvivalGames
-api: 3.0.0-ALPHA11
+api: 3.14.0
 version: 1.2.0
 main: Andre\SurvivalGames\Main
 load: POSTWORLD
@@ -12,10 +12,12 @@ commands:
   permission: SurvivalGamess.command.sg
   description: SurvivalGamess Main Command
   usage: §d§oUse §e/sg help
+
  lobby:
   permission: SurvivalGames.command.lobby
   description: back to lobby
   usage: /lobby
+
 permissions:
  SurvivalGamess.*:
   description: the main permission
